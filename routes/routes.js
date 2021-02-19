@@ -1,4 +1,5 @@
-const userRoutes = require('./comic');
+const comicRoute = require('./comic');
+const comicalRoute = require('./comical');
 
 const appRouter = (app, fs) => {
 
@@ -6,7 +7,8 @@ const appRouter = (app, fs) => {
         res.send('all things funny');
     });
 
-    userRoutes(app, fs);
+    comicRoute(app, fs);
+    comicalRoute(app, fs);
 
 };
 

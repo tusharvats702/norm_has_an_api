@@ -1,5 +1,5 @@
 
-const userRoutes = (app, fs) => {
+const comicRoute = (app, fs) => {
 
     const dataPath = './model/comic.json';
 
@@ -36,4 +36,4 @@ const userRoutes = (app, fs) => {
         });
     });
 };
-module.exports = userRoutes;
+module.exports = comicRoute;

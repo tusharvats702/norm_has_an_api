@@ -1,8 +1,50 @@
-{
-  "1": {
-    "name": "Norm Macdonald",
-    "education": "6 none",
-    "profession": "comic",
-    "id": 1
-  }
-}
+[
+   {
+      "birthName": "Norman Gene Macdonald",
+      "stageName": "Norm Macdonald",
+      "dateOfBirth": " October 17, 1959",
+      "placeOfBirth": "Québec City, Québec, Canada",
+      "mother":"Ferne Macdonald",
+      "father":"Percy Lloyd Macdonald",
+      "alive": true,
+      "height": "6'2 (1.88 m)",
+      "nationality": "American-Canadian",
+      "nickname": "The Mad King",
+      "workingSince": 1985,
+      "education": [
+         "Quebec High School, Quebec, Canada",
+         "Gloucester High School, Ontario, Canada"
+      ],
+      "wikipedia": "https://en.wikipedia.org/wiki/Norm_Macdonald",
+      "imdb": "https://www.imdb.com/name/nm0005172",
+      "officialWebsite": "https://www.normmacdonald.tv",
+      "movies": [
+         "Billy Madison (1995)",
+         "The People vs. Larry Flynt (1996)",
+         "Dirty Work (1998)",
+         "Dr. Dolittle (1998)",
+         "Deuce Bigalow: Male Gigolo (1999)",
+         "Man on the Moon (1999)",
+         "Screwed (2000)",
+         "The Animal (2001)"
+      ],
+      "videoShows": [
+         "The Dennis Miller Show",
+         "Roseanne (1992-1993)",
+         "Saturday Night Live (1993–1998)",
+         "The Norm Show",
+         "A Minute with Stan Hooper"
+      ],
+      "talkShows": [
+         "Sports Show with Norm Macdonald (2011)",
+         "Norm Macdonald Live (2013)",
+         "Norm Macdonald Has a Show (2018)",
+         "Quarantined (2020)"
+      ],
+      "audioShows": [
+      ],
+      "books": [
+         "Based on a True Story : Not a Memoir (2016)"
+      ]
+   }
+]
