@@ -1,0 +1,41 @@
+{
+  "name": "norm_has_an_api",
+  "version": "1.0.0",
+  "description": "A fuuny API for funny people",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahampriyanshu/norm_has_an_api.git"
+  },
+  "keywords": [
+    "funny",
+    "api",
+    "API",
+    "quotes",
+    "comical",
+    "smirky",
+    "dark",
+    "norm",
+    "irony"
+  ],
+  "author": "ahampriyanshu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ahampriyanshu/norm_has_an_api/issues"
+  },
+  "homepage": "https://github.com/ahampriyanshu/norm_has_an_api#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "eslint": "^7.20.0",
+    "nodemon": "^2.0.7"
+  }
+}
