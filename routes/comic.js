@@ -24,7 +24,7 @@ const comicRoute = (app, fs) => {
                 } while (filteredData.indexOf(object) > -1);
                 filteredData[i] = object;
             }
-            console.log(`⚡️[comic]: comic without filter query/queries fetched successfully`);
+            console.log(`⚡️[comic]: random comic fetched successfully`);
             res.send(filteredData);
         });
     });
@@ -37,7 +37,7 @@ const comicRoute = (app, fs) => {
             const parsedJSON = JSON.parse(data);
             const query = req.params.query || "danieltosh";
             const filteredData = _.where(parsedJSON, { stageName: query });
-            console.log(`⚡️[comic]: comic query/queries fetched successfully`);
+            console.log(`⚡️[comic]: ${query} number of comics fetched successfully`);
             res.send(filteredData);
         });
     });
@@ -50,7 +50,7 @@ const comicRoute = (app, fs) => {
             const parsedJSON = JSON.parse(data);
             const query = req.params.query || "uk";
             const filteredData = _.where(parsedJSON, { nationality: query });
-            console.log(`⚡️[comic]: comic query/queries fetched successfully`);
+            console.log(`⚡️[comic]: ${query} comic fetched successfully`);
             res.send(filteredData);
         });
     });
@@ -64,7 +64,7 @@ const comicRoute = (app, fs) => {
             const keys = Object.keys(parsedJSON);
             const query = parseInt(req.params.query) || parseInt(keys[Math.floor(keys.length * Math.random())]) + 1;
             const filteredData = _.where(parsedJSON, { id: query });
-            console.log(`⚡️[comic]: comic query/queries fetched successfully`);
+            console.log(`⚡️[comic]: comic with ${query} id fetched successfully`);
             res.send(filteredData);
         });
     });
@@ -78,7 +78,7 @@ const comicRoute = (app, fs) => {
             const parsedJSON = JSON.parse(data);
             const query = parseInt(req.params.query) || parseInt(Math.floor(15 + (45 - 16) * Math.random()));
             const filteredData = _.filter(parsedJSON, ({ dateOfBirth }) => thisYear - dateOfBirth.split('-')[0] >= query);
-            console.log(`⚡️[comic]: comic endpoint with minimum age fetched successfully`);
+            console.log(`⚡️[comic]: comic with minimum age ${query} fetched successfully`);
             res.send(filteredData);
         });
     });
@@ -91,7 +91,7 @@ const comicRoute = (app, fs) => {
             const parsedJSON = JSON.parse(data);
             const query = parseInt(req.params.query) || parseInt(Math.floor(15 + (45 - 16) * Math.random()));
             const filteredData = _.filter(parsedJSON, ({ dateOfBirth }) => thisYear - dateOfBirth.split('-')[0] <= query);
-            console.log(`⚡️[comic]: comic endpoint with maximum age fetched successfully`);
+            console.log(`⚡️[comic]: comic with maximum age ${query} fetched successfully`);
             res.send(filteredData);
         });
     });
@@ -104,7 +104,7 @@ const comicRoute = (app, fs) => {
             }
             const parsedJSON = JSON.parse(data);
             const filteredData = _.where(parsedJSON, { alive: true });
-            console.log(`⚡️[comic]: comic query/queries fetched successfully`);
+            console.log(`⚡️[comic]: all alive comics fetched successfully`);
             res.send(filteredData);
         });
     });
@@ -117,7 +117,7 @@ const comicRoute = (app, fs) => {
             }
             const parsedJSON = JSON.parse(data);
             const filteredData = _.where(parsedJSON, { alive: false });
-            console.log(`⚡️[comic]: comic query/queries fetched successfully`);
+            console.log(`⚡️[comic]: comics of the past fetched successfully`);
             res.send(filteredData);
         });
     });
@@ -131,7 +131,7 @@ const comicRoute = (app, fs) => {
             const parsedJSON = JSON.parse(data);
             const query = parseInt(req.params.query) || parseInt(Math.floor(1900 + (2021 - 1900) * Math.random()));
             const filteredData = _.filter(parsedJSON, ({ workingSince }) => workingSince >= query);
-            console.log(`⚡️[comic]: comic query/queries fetched successfully`);
+            console.log(`⚡️[comic]: comic working since  ${query} fetched successfully`);
             res.send(filteredData);
         });
     });

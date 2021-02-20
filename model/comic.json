@@ -16,13 +16,15 @@
          "Quebec High School, Quebec, Canada",
          "Gloucester High School, Ontario, Canada"
       ],
+      "twitter":"https://twitter.com/normmacdonald",
+      "instagram":"https://www.instagram.com/therealnormmacdonald",
       "wikipedia": "https://en.wikipedia.org/wiki/Norm_Macdonald",
       "imdb": "https://www.imdb.com/name/nm0005172",
       "officialWebsite": "https://www.normmacdonald.tv",
       "specials": [
-         "Billy Madison (1995)",
-         "The People vs. Larry Flynt (1996)",
-         "Dirty Work (1998)"
+         "Ridiculous (2006)",
+         "Me Doing Stand-Up (2011)",
+         "Hitler's Dog, Gossip & Trickery (2017)"
       ],
       "movies": [
          "Billy Madison (1995)",
@@ -54,27 +56,30 @@
    },
    {
       "id": 2,
-      "birthName": "Norman Gene Macdonald",
-      "stageName": "danieltosh",
-      "dateOfBirth":"1989-10-17",
-      "placeOfBirth": "Québec City, Québec, Canada",
-      "mother":"Ferne Macdonald",
-      "father":"Percy Lloyd Macdonald",
+      "birthName": "William Frederick Burr",
+      "stageName": "billburr",
+      "mother":"Linda Ann",
+      "father":"Robert Edmund Burr",
+      "dateOfBirth": "1968-06-10",
+      "placeOfBirth": "Canton, Massachusetts, U.S.",
       "alive": true,
-      "height": "6'2 (1.88 m)",
-      "nationality": "American-Canadian",
-      "workingSince": 1985,
+      "diedOn": null,
+      "height": "5'10 (1.78 m)",
+      "nationality": "american",
+      "workingSince": 1992,
       "education": [
          "Quebec High School, Quebec, Canada",
          "Gloucester High School, Ontario, Canada"
       ],
-      "wikipedia": "https://en.wikipedia.org/wiki/Norm_Macdonald",
-      "imdb": "https://www.imdb.com/name/nm0005172",
-      "officialWebsite": "https://www.normmacdonald.tv",
+      "twitter":"https://twitter.com/billburr",
+      "instagram":"https://www.instagram.com/wilfredburr/?hl=en",
+      "wikipedia": "https://en.wikipedia.org/wiki/Bill_Burr",
+      "imdb": "https://www.imdb.com/name/nm0122987/",
+      "officialWebsite": "https://billburr.com/",
       "specials": [
-         "Billy Madison (1995)",
-         "The People vs. Larry Flynt (1996)",
-         "Dirty Work (1998)"
+         "Ridiculous (2006)",
+         "Me Doing Stand-Up (2011)",
+         "Hitler's Dog, Gossip & Trickery (2017)"
       ],
       "movies": [
          "Billy Madison (1995)",
@@ -99,35 +104,37 @@
          "Norm Macdonald Has a Show (2018)",
          "Quarantined (2020)"
       ],
-      "audioShows": [
-      ],
+      "audioShows":  null,
       "books": [
          "Based on a True Story : Not a Memoir (2016)"
       ]
    },
    {
       "id": 3,
-      "birthName": "Norman Gene Macdonald",
-      "stageName": "normmacdonald",
-      "dateOfBirth":"2009-10-17",
-      "placeOfBirth": "Québec City, Québec, Canada",
-      "mother":"Ferne Macdonald",
-      "father":"Percy Lloyd Macdonald",
+      "birthName": "Louis Székely",
+      "stageName": "louieck",
+      "mother":"Mary Louise",
+      "father":"Luis Székely.",
+      "dateOfBirth": "1967-08-12",
+      "placeOfBirth": "Washington, D.C., U.S.",
       "alive": true,
-      "height": "6'2 (1.88 m)",
-      "nationality": "American-Canadian",
-      "workingSince": 1985,
+      "diedOn": null,
+      "height": "6'0 (1.83 m)",
+      "nationality": "amaerican",
+      "workingSince": 1984,
       "education": [
          "Quebec High School, Quebec, Canada",
          "Gloucester High School, Ontario, Canada"
       ],
-      "wikipedia": "https://en.wikipedia.org/wiki/Norm_Macdonald",
-      "imdb": "https://www.imdb.com/name/nm0005172",
-      "officialWebsite": "https://www.normmacdonald.tv",
+      "twitter":"https://twitter.com/normmacdonald",
+      "instagram":"https://www.instagram.com/therealnormmacdonald",
+      "wikipedia": "https://en.wikipedia.org/wiki/Louis_C.K.",
+      "imdb": "https://www.imdb.com/name/nm0127373/",
+      "officialWebsite": "https://louisck.com/",
       "specials": [
-         "Billy Madison (1995)",
-         "The People vs. Larry Flynt (1996)",
-         "Dirty Work (1998)"
+         "Ridiculous (2006)",
+         "Me Doing Stand-Up (2011)",
+         "Hitler's Dog, Gossip & Trickery (2017)"
       ],
       "movies": [
          "Billy Madison (1995)",
@@ -152,35 +159,37 @@
          "Norm Macdonald Has a Show (2018)",
          "Quarantined (2020)"
       ],
-      "audioShows": [
-      ],
+      "audioShows":  null,
       "books": [
          "Based on a True Story : Not a Memoir (2016)"
       ]
    },
    {
       "id": 4,
-      "birthName": "Norman Gene Macdonald",
-      "stageName": "billburr",
-      "dateOfBirth": "2019-10-17",
-      "placeOfBirth": "Québec City, Québec, Canada",
-      "mother":"Ferne Macdonald",
-      "father":"Percy Lloyd Macdonald",
-      "alive": false,
-      "height": "6'2 (1.88 m)",
-      "nationality": "American-Canadian",
-      "workingSince": 1995,
+      "birthName": "Daniel Dwight Tosh ",
+      "stageName": "danieltosh",
+      "mother":"not known",
+      "father":"not known",
+      "dateOfBirth": "1975-05-29",
+      "placeOfBirth": "Boppard, Rhineland-Palatinate, West Germany",
+      "alive": true,
+      "diedOn": null,
+      "height": "6'3 (1.91 m)",
+      "nationality": "american",
+      "workingSince": 1985,
       "education": [
          "Quebec High School, Quebec, Canada",
          "Gloucester High School, Ontario, Canada"
       ],
-      "wikipedia": "https://en.wikipedia.org/wiki/Norm_Macdonald",
-      "imdb": "https://www.imdb.com/name/nm0005172",
-      "officialWebsite": "https://www.normmacdonald.tv",
+      "twitter":"https://twitter.com/danieltosh",
+      "instagram":"https://www.instagram.com/tosh.0",
+      "wikipedia": "https://en.wikipedia.org/wiki/Daniel_Tosh",
+      "imdb": "https://www.imdb.com/name/nm1169495/",
+      "officialWebsite": "http://danieltosh.com/",
       "specials": [
-         "Billy Madison (1995)",
-         "The People vs. Larry Flynt (1996)",
-         "Dirty Work (1998)"
+         "Ridiculous (2006)",
+         "Me Doing Stand-Up (2011)",
+         "Hitler's Dog, Gossip & Trickery (2017)"
       ],
       "movies": [
          "Billy Madison (1995)",
@@ -205,7 +214,7 @@
          "Norm Macdonald Has a Show (2018)",
          "Quarantined (2020)"
       ],
-      "audioShows": null,
+      "audioShows":  null,
       "books": [
          "Based on a True Story : Not a Memoir (2016)"
       ]
