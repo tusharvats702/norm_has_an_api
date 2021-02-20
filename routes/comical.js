@@ -11,7 +11,6 @@ const comicalRoute = (app, fs) => {
             if (err) {
                 throw err;
             }
-
             const parsedJSON = JSON.parse(data)
             const keys = Object.keys(parsedJSON);
             const query = parseInt(req.params.query) || 1;

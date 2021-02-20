@@ -10,7 +10,6 @@ const comicRoute = (app, fs) => {
             if (err) {
                 throw err;
             }
-
             const parsedJSON = JSON.parse(data)
             const keys = Object.keys(parsedJSON);
             const query = parseInt(req.params.query) || 1;
@@ -36,7 +35,7 @@ const comicRoute = (app, fs) => {
             }
             const parsedJSON = JSON.parse(data);
             var query = req.params.query || "danieltosh";
-            query = where.lowerCase(query); 
+            query = where.lowerCase(query);
             query = query.replace(/\s/g, '');
             console.log(query)
             const filteredData = _.where(parsedJSON, { stageName: query });
@@ -44,6 +43,7 @@ const comicRoute = (app, fs) => {
             res.send(filteredData);
         });
     });
+    
 
     app.get('/comic/country/:query?', (req, res) => {
         fs.readFile(jsonData, 'utf8', (err, data) => {
@@ -51,12 +51,13 @@ const comicRoute = (app, fs) => {
                 throw err;
             }
             const parsedJSON = JSON.parse(data);
-            const query = req.params.query || "uk";
+            const query = req.params.query || "british";
             const filteredData = _.where(parsedJSON, { nationality: query });
             console.log(`⚡️[comic]: ${query} comic fetched successfully`);
             res.send(filteredData);
         });
     });
+
 
     app.get('/comic/id/:query?', (req, res) => {
         fs.readFile(jsonData, 'utf8', (err, data) => {
@@ -86,6 +87,7 @@ const comicRoute = (app, fs) => {
         });
     });
 
+
     app.get('/comic/maxAge/:query?', (req, res) => {
         fs.readFile(jsonData, 'utf8', (err, data) => {
             if (err) {
@@ -113,6 +115,7 @@ const comicRoute = (app, fs) => {
         });
     });
 
+
     app.get('/comic/bornBefore/:query?', (req, res) => {
         fs.readFile(jsonData, 'utf8', (err, data) => {
             if (err) {
@@ -126,19 +129,20 @@ const comicRoute = (app, fs) => {
         });
     });
 
-        app.get('/comic/isAlive/:query?', (req, res) => {
+
+    app.get('/comic/isAlive/:query?', (req, res) => {
         fs.readFile(jsonData, 'utf8', (err, data) => {
             if (err) {
                 throw err;
             }
             const parsedJSON = JSON.parse(data);
-            const query = req.params.query;
-            console.log("function called");
+            const query = (req.params.query === 'true');
             const filteredData = _.where(parsedJSON, { alive: query });
-            console.log(`⚡️[comic]: all alive/dead comics fetched successfully`);
+            console.log(`⚡️[comic]: all alive:${query} comics fetched successfully`);
             res.send(filteredData);
         });
     });
+
 
 
     app.get('/comic/since/:query?', (req, res) => {

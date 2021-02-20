@@ -1,6 +1,7 @@
 <p align="center"><img height="200" src="https://github.com/ahampriyanshu/norm/raw/media/logo.png"></p>
 <h3 align="center">a funny api for funny people</h3>
 
+
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/ahampriyanshu/norm_has_an_api)
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/ahampriyanshu/norm_has_an_api)
 [![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ahampriyanshu/norm_has_an_api)
@@ -82,43 +83,31 @@
 ```
 
 ### Get a random comic
-
 ``/api/comic``
 
 ### Get <integer> number of comic
-
 ``/api/comic/<integer>``
 
 ### Get a comic by id
-
 ``/api/comic/id/<integer>``
 
 ### Get a comic by name
-
 ``/api/comic/name/<string>``
 
 ### Get a comic by nationality
-
 ``/api/comic/county/<string>``
 
 ### Get a living/dead comic
-
-``/api/comic/alive/<boolean>``
+``/api/comic/isAlive/<boolean>``
 
 ### Get a comic working since
-
 ``/api/comic/since/<integer>``
 ### Get a comic by age
-
 ``/api/comic/minAge/<integer>``
-
 ``/api/comic/maxAge/<integer>``
-
-### Get a comic by born year
-
 ``/api/comic/bornAfter/<integer>``
-
 ``/api/comic/bornBefore/<integer>``
+
 ## Comical Endpoints
 
 ```json
@@ -132,11 +121,9 @@
 ```
 
 ### Get a random joke/quote/fact
-
 ``/api/comical``
 
 ### Get <integer> number of joke/quote/fact
-
 ``/api/comical/<integer>``
 
 ## Contributing
