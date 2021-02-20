@@ -1,7 +1,6 @@
-const { json } = require("body-parser");
-
 const comicalRoute = (app, fs) => {
 
+    const { json } = require("body-parser");
     const jsonData = './model/comical.json';
 
 
@@ -25,9 +24,9 @@ const comicalRoute = (app, fs) => {
                 filteredData[i] = object;
             }
             res.send(filteredData);
+            console.log(`⚡️[comical]:${limit} comical query/queries fetched successfully`);
         });
     });
 
 };
 module.exports = comicalRoute;
-

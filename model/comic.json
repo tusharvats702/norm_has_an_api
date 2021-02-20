@@ -3,11 +3,12 @@
       "id": 1,
       "birthName": "Norman Gene Macdonald",
       "stageName": "normmacdonald",
-      "dateOfBirth": " October 17, 1959",
-      "placeOfBirth": "Québec City, Québec, Canada",
       "mother":"Ferne Macdonald",
       "father":"Percy Lloyd Macdonald",
+      "dateOfBirth": "1959-10-17",
+      "placeOfBirth": "Québec City, Québec, Canada",
       "alive": true,
+      "diedOn": null,
       "height": "6'2 (1.88 m)",
       "nationality": "canadian",
       "workingSince": 1985,
@@ -46,8 +47,7 @@
          "Norm Macdonald Has a Show (2018)",
          "Quarantined (2020)"
       ],
-      "audioShows": [
-      ],
+      "audioShows":  null,
       "books": [
          "Based on a True Story : Not a Memoir (2016)"
       ]
@@ -56,7 +56,7 @@
       "id": 2,
       "birthName": "Norman Gene Macdonald",
       "stageName": "danieltosh",
-      "dateOfBirth": " October 17, 1959",
+      "dateOfBirth":"1989-10-17",
       "placeOfBirth": "Québec City, Québec, Canada",
       "mother":"Ferne Macdonald",
       "father":"Percy Lloyd Macdonald",
@@ -109,7 +109,7 @@
       "id": 3,
       "birthName": "Norman Gene Macdonald",
       "stageName": "normmacdonald",
-      "dateOfBirth": " October 17, 1959",
+      "dateOfBirth":"2009-10-17",
       "placeOfBirth": "Québec City, Québec, Canada",
       "mother":"Ferne Macdonald",
       "father":"Percy Lloyd Macdonald",
@@ -162,7 +162,7 @@
       "id": 4,
       "birthName": "Norman Gene Macdonald",
       "stageName": "billburr",
-      "dateOfBirth": " October 17, 1959",
+      "dateOfBirth": "2019-10-17",
       "placeOfBirth": "Québec City, Québec, Canada",
       "mother":"Ferne Macdonald",
       "father":"Percy Lloyd Macdonald",
@@ -205,8 +205,7 @@
          "Norm Macdonald Has a Show (2018)",
          "Quarantined (2020)"
       ],
-      "audioShows": [
-      ],
+      "audioShows": null,
       "books": [
          "Based on a True Story : Not a Memoir (2016)"
       ]

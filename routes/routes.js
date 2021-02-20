@@ -4,7 +4,7 @@ const comicalRoute = require('./comical');
 const appRouter = (app, fs) => {
 
     app.get('/', (req, res) => {
-        res.send('all things funny');
+        res.send('add /comic to view comedians or /comical to quotes etc');
     });
 
     comicRoute(app, fs);
