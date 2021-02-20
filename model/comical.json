@@ -1,69 +1,86 @@
 [
     {
+        "id": 1,
         "content": "Do not take life too seriously. You will never get out of it alive.",
         "by": "Elbert Hubbard"
     },
     {
+        "id": 2,
         "content": "We hang the petty thieves and appoint the great ones to public office.",
         "by": "Aesop"
     },
     {
+        "id": 3,
         "content": "The desire for imaginary benefits often involves the loss of present blessings.",
         "by": "Aesop"
     },
     {
+        "id": 4,
         "content": "Kindness is more persuasive than force.",
         "by": "Aesop"
     },
     {
+        "id": 5,
         "content": "Once a wolf, always a wolf.",
         "by": "Aesop"
     },
     {
-      "content":"No act of kindness, no matter how small, is ever wasted.",
-      "by": "Aesop"
+        "id": 6,
+        "content": "No act of kindness, no matter how small, is ever wasted.",
+        "by": "Aesop"
     },
     {
+        "id": 7,
         "content": "Get your facts first, then you can distort them as you please.",
         "by": "Mark Twain"
     },
     {
+        "id": 8,
         "content": "Politics is the art of looking for trouble, finding it everywhere, diagnosing it incorrectly and applying the wrong remedies.",
         "by": "Groucho Marx"
     },
     {
+        "id": 9,
         "content": "Politics is the gentle art of getting votes from the poor and campaign funds from the rich, by promising to protect each from the other.",
         "by": "Oscar Ameringer"
     },
     {
+        "id": 10,
         "content": "A patriot must always be ready to defend his country against his government.",
         "by": "Edward Abbey"
     },
     {
+        "id": 11,
         "content": "When the President does it, that means that it's not illegal.",
         "by": "Richard M. Nixon"
     },
     {
+        "id": 12,
         "content": "Did you hear that we're writing Iraq's new Constitution?Why not just give them ours? We're not using it anymore.",
         "by": "Jay Leno"
     },
     {
+        "id": 13,
         "content": "Common sense is like deodorant. The people who need it most never use it.",
         "by": "Bimm Murray"
     },
     {
+        "id": 14,
         "content": "Disneyland. The world's biggest people trap, built by a mouse.",
         "by": "Bill Murray"
     },
     {
+        "id": 15,
         "content": "You can tell how boring a person is by the lack of fear in their eyes when someone is flipping through photos on their phone.",
         "by": "Bill Murray"
     },
     {
+        "id": 16,
         "content": "I may be drunk, Miss, but in the morning I will be sober and you will still be ugly.",
         "by": "Winston Churchill"
     },
     {
+        "id": 17,
         "content": "Why do they call it rush hour when nothing moves?",
         "by": "Robin Williams"
     }

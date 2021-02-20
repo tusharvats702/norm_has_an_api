@@ -35,9 +35,12 @@ const comicRoute = (app, fs) => {
                 throw err;
             }
             const parsedJSON = JSON.parse(data);
-            const query = req.params.query || "danieltosh";
+            var query = req.params.query || "danieltosh";
+            query = where.lowerCase(query); 
+            query = query.replace(/\s/g, '');
+            console.log(query)
             const filteredData = _.where(parsedJSON, { stageName: query });
-            console.log(`⚡️[comic]: ${query} number of comics fetched successfully`);
+            console.log(`⚡️[comic]: ${query} fetched successfully`);
             res.send(filteredData);
         });
     });
@@ -97,27 +100,42 @@ const comicRoute = (app, fs) => {
     });
 
 
-    app.get('/comic/alive', (req, res) => {
+    app.get('/comic/bornAfter/:query?', (req, res) => {
         fs.readFile(jsonData, 'utf8', (err, data) => {
             if (err) {
                 throw err;
             }
             const parsedJSON = JSON.parse(data);
-            const filteredData = _.where(parsedJSON, { alive: true });
-            console.log(`⚡️[comic]: all alive comics fetched successfully`);
+            const query = parseInt(req.params.query) || parseInt(Math.floor(15 + (45 - 16) * Math.random()));
+            const filteredData = _.filter(parsedJSON, ({ dateOfBirth }) => dateOfBirth.split('-')[0] > query);
+            console.log(`⚡️[comic]: comic bornafter ${query} fetched successfully`);
             res.send(filteredData);
         });
     });
 
-
-    app.get('/comic/dead', (req, res) => {
+    app.get('/comic/bornBefore/:query?', (req, res) => {
         fs.readFile(jsonData, 'utf8', (err, data) => {
             if (err) {
                 throw err;
             }
             const parsedJSON = JSON.parse(data);
-            const filteredData = _.where(parsedJSON, { alive: false });
-            console.log(`⚡️[comic]: comics of the past fetched successfully`);
+            const query = parseInt(req.params.query) || parseInt(Math.floor(15 + (45 - 16) * Math.random()));
+            const filteredData = _.filter(parsedJSON, ({ dateOfBirth }) => dateOfBirth.split('-')[0] < query);
+            console.log(`⚡️[comic]: comic bornbefore ${query} fetched successfully`);
+            res.send(filteredData);
+        });
+    });
+
+        app.get('/comic/isAlive/:query?', (req, res) => {
+        fs.readFile(jsonData, 'utf8', (err, data) => {
+            if (err) {
+                throw err;
+            }
+            const parsedJSON = JSON.parse(data);
+            const query = req.params.query;
+            console.log("function called");
+            const filteredData = _.where(parsedJSON, { alive: query });
+            console.log(`⚡️[comic]: all alive/dead comics fetched successfully`);
             res.send(filteredData);
         });
     });
