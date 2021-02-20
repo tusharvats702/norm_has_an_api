@@ -4,6 +4,11 @@ const app = express();
 const fs = require('fs');
 var port = process.env.PORT || 4001 ;
 
+app.all('*', function (req, res, next) {
+    res.set('Access-Control-Allow-Origin', '*');
+    next();
+});
+
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
